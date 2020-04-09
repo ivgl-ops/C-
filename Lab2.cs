@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace Cash
 {
     public interface IOlimpicConstruction
@@ -12,7 +13,7 @@ namespace Cash
         }
     }
     public class Hostel : IOlimpicConstruction
-    { 
+    {
         string Adress { get; set; }
         int Cost;
         public void Rent()
@@ -73,7 +74,17 @@ namespace Cash
             Student student = new Student();
             Console.WriteLine("Введите нужный вам пункт:\n 1.Аренда спорт-комплекса \n 2.Аренда медецинского центра \n 3.Аренда общежития");
             int choose = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите целое число ");
+            if (choose > 3)
+            {
+                Console.WriteLine("Введите от 1 до 3");
+               choose = Convert.ToInt32(Console.ReadLine());
+            }
+            if (choose < 0)
+            {
+                Console.WriteLine("Введите от 1 до 3");
+                choose = Convert.ToInt32(Console.ReadLine());
+            }
+
             switch (choose)
             {
                 case 1:
@@ -95,3 +106,4 @@ namespace Cash
         }
     }
 }
+
