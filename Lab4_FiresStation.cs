@@ -157,10 +157,6 @@ namespace fire_department
             }
         }
     }
-    //FEMA - это МЧС в США
-    public class FEMA
-    { 
-    }
 
     
     class Program

@@ -16,7 +16,7 @@ namespace Cash
     {
         string Adress { get; set; }
         int Cost;
-        public void Rent()
+        void IOlimpicConstruction.Rent()
         {
             Random Cost = new Random();
             int money = Cost.Next(1000, 10000);
@@ -27,7 +27,7 @@ namespace Cash
     {
         string Adress { get; set; }
         int Cost;
-        public void Rent()
+        void IOlimpicConstruction.Rent()
         {
             Random Cost = new Random();
             int money = Cost.Next(1000, 10000);
@@ -37,8 +37,8 @@ namespace Cash
     public class SportsComplex : IOlimpicConstruction
     {
         string Adress { get; set; }
-        int Cost;
-        public void Rent()
+        int Cost { get; set; }
+        void IOlimpicConstruction.Rent()
         {
             Random Cost = new Random();
             int money = Cost.Next(1000, 10000);
@@ -47,23 +47,29 @@ namespace Cash
     }
     class Student
     {
-        string Name { get; set; }
-        int Money { get; set; }
-        int Age { get; set; }
+        public string Name { get; set; }
+        public int Money { get; set; }
+        public int Age { get; set; }
+        public Student(string name, int money, int age)
+        {
+            Name = name;
+            Money = money;
+            Age = age;
+        }
         public void CheckHostel()
         {
             Hostel hostel = new Hostel();
-            hostel.Rent();
+            ((IOlimpicConstruction)hostel).Rent();
         }
         public void CheckSportComplex()
         {
             SportsComplex sportsComplex = new SportsComplex();
-            sportsComplex.Rent();
+            ((IOlimpicConstruction)sportsComplex).Rent();
         }
         public void CheckMedicalCenter()
         {
             MedicalCenter medicalCenter = new MedicalCenter();
-            medicalCenter.Rent();
+            ((IOlimpicConstruction)medicalCenter).Rent();
         }
 
     }
@@ -71,13 +77,13 @@ namespace Cash
     {
         static void Main(string[] args)
         {
-            Student student = new Student();
+            Student student = new Student("Иван", 1000000, 18);
             Console.WriteLine("Введите нужный вам пункт:\n 1.Аренда спорт-комплекса \n 2.Аренда медецинского центра \n 3.Аренда общежития");
             int choose = Convert.ToInt32(Console.ReadLine());
             if (choose > 3)
             {
                 Console.WriteLine("Введите от 1 до 3");
-               choose = Convert.ToInt32(Console.ReadLine());
+                choose = Convert.ToInt32(Console.ReadLine());
             }
             if (choose < 0)
             {
@@ -106,4 +112,3 @@ namespace Cash
         }
     }
 }
-
