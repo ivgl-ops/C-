@@ -2,276 +2,111 @@
 using System.Collections.Generic;
 
 
-namespace Cash
+namespace Lab3
 {
     public interface IOlimpicConstruction
+    { 
+        int Cost { get; set; }
+    }
+    public abstract class OlimpConstruction : IOlimpicConstruction
+    { 
+        public int Cost { get; set; }
+    }
+    public class Separator<T> where T : IOlimpicConstruction
     {
-        public void Rent()
+        public List<T> LeasedObj = new List<T>();
+        public List<T> FreeObj = new List<T>();
+        //добовление в арендованные
+        public void Add(T item, int cost)
         {
-            Random Cost = new Random();
-            int money = Cost.Next(1000, 10000);
-            Console.WriteLine("Стоимось аренды " + money + " $");
+            if (cost > 100)
+            {
+                LeasedObj.Add(item);
+                FreeObj.Remove(item);
+                Console.WriteLine("Object lised");
+            }
+            else
+            {
+                Console.WriteLine("Object not lised");
+            }
+        }
+        //добовление в свободные
+        public void Remove(T item)
+        {
+            if (LeasedObj.Contains(item) == true)
+            {
+                FreeObj.Add(item);
+                LeasedObj.Remove(item);
+                Console.WriteLine("Object removed in FreeObj");
+            }
+        }
+
+        public void Find(T item)
+        {
+            if (FreeObj.Contains(item) == true)
+            {
+                Console.WriteLine($"Найден свободный объект {item} ");
+            }
+            else
+            {
+                Console.WriteLine("Объект не найден");
+            }
+        }
+
+
+    }
+    class MedicalCenter : OlimpConstruction
+    {
+        public  MedicalCenter(int cost)
+        { 
+
         }
     }
-    public class Hostel : IOlimpicConstruction
+    class Stadium : OlimpConstruction
     {
-        public string Name { get; set; }
-        public string Cost { get; set; }
-        public void Rent()
-        {
-            Random Cost = new Random();
-            int money = Cost.Next(100, 500);
-            Console.WriteLine("Стоимось аренды общежития составит:" + money + " $");
+        public Stadium(int cost)
+        { 
+            
         }
     }
-    public class MedicalCenter : IOlimpicConstruction
-    {
-        public string Name { get; set; }
-        public string Cost { get; set; }
-        public void Rent()
-        {
-            Random Cost = new Random();
-            int money = Cost.Next(6000,7000);
-            Console.WriteLine("Стоимось аренды больницы соcтавит: " + money + " $");
-        }
+    abstract class SimpleConstr : IOlimpicConstruction
+    { 
+     public int Cost { get; set; }
     }
-    public class SportsComplex : IOlimpicConstruction
+    class Hostel : SimpleConstr
     {
-        public string Name { get; set; }
-        public string Cost { get; set; }
-        public void Rent()
-        {
-            Random Cost = new Random();
-            int money = Cost.Next(1000, 3000);
-            Console.WriteLine("Стоимось аренды СпортКомплекса составит:" + money + " $");
-        }
-    }
-    public class Library : IOlimpicConstruction
-    {
-        public void Rent()
-        {
-            Random Cost = new Random();
-            int money = Cost.Next(1000, 10000);
-            Console.WriteLine("Стоимось аренды Бибилиотеки составит: " + money + " $");
-        }
-        public string Name { get; set; }
-        public string Cost { get; set; }
-    }
-    public class Separator : IOlimpicConstruction
-    {
-        MedicalCenter medical = new MedicalCenter();
-        Library lib = new Library();
-        SportsComplex complex = new SportsComplex();
-        Hostel hostel = new Hostel();
-
-
-        public void Rent()
-        {
-            Random Cost = new Random();
-            int money = Cost.Next(1000, 10000);
-            Console.WriteLine("Стоимось аренды " + money + " $");
-        }
-
-        public List<string> LeasedOlimpicObjects = new List<string>();
-        public List<string> FreeOlimpicObjects = new List<string>();
-        public void Money()
-        {
-            Console.WriteLine("Ваш бюджет: ");
-            int budjet = Convert.ToInt32(Console.ReadLine());
-            if (budjet >= 7000)
-            {
-                Console.WriteLine("Вы можете арендовать любой свободный обект");
-            }
-            if (budjet >= 4000)
-            {
-                Console.WriteLine("Вы можете арендовать: Библиотеку, Общежитие, СпортКомплекс ");
-            }
-            if (budjet >= 3000)
-            {
-                Console.WriteLine("Вы можете арендовать: СпортКомплекс и Общежитие ");
-            }
-            if (budjet >= 500)
-            {
-                Console.WriteLine("Вы можете арендовать: Общежитие");
-            }
-            if (budjet < 500)
-            {
-                Console.WriteLine("Вы ничего не можете арендовать");
-            }
-
-        }
-
-        public void Add()
-        {
-            FreeOlimpicObjects.Add("Больница");
-            FreeOlimpicObjects.Add("СпортКомплекс");
-            FreeOlimpicObjects.Add("Общежитие");
-            FreeOlimpicObjects.Add("Библиотека");
-        }
-        //код ниже реализует возврат в свободные объекты
-        public void RemoveFree()
-        {
-
-            foreach (string i in LeasedOlimpicObjects)
-            {
-                Console.WriteLine("Объект который  находится в арене и его можно удалить :" + i);
-            }
-            Console.WriteLine("Введите имя объекта который хотите удалить:");
-            string obj = Console.ReadLine();
-            if (obj == "Больница")
-            {
-                LeasedOlimpicObjects.Remove("Больница");
-                FreeOlimpicObjects.Insert(0,"Больница");
-            }
-            if (obj == "СпортКомплекс")
-            {
-                LeasedOlimpicObjects.Remove("СпортКомплекс");
-                FreeOlimpicObjects.Insert(1,"СпортКомплекс");
-
-            }
-            if (obj == "Общежитие")
-            {
-                LeasedOlimpicObjects.Remove("Общежитие");
-                FreeOlimpicObjects.Insert(2, "Общежитие");
-
-            }
-            if (obj == "Бибилиотека")
-            {
-                LeasedOlimpicObjects.Remove("Бибилиотека");
-                FreeOlimpicObjects.Insert(3, "Бибилиотека");
-            }
-                foreach (string i in LeasedOlimpicObjects)
-            {
-                Console.WriteLine();
-                Console.WriteLine("Обьект " + i + " находится в Аренде");
-            }
-            foreach (string i in FreeOlimpicObjects)
-            {
-                Console.WriteLine(i);
-            }
-        }
-
-
-        //код ниже реализует аренду объектов
-        public void Remove()
-        {
-            Console.WriteLine("Выбор объекта: ");
-
-            Console.WriteLine("Cвободные обьекты:");
-            foreach (string i in FreeOlimpicObjects)
-            { 
-                Console.WriteLine(i);
-            }
-
-            int obj = Convert.ToInt32(Console.ReadLine());
-            switch (obj)
-            {
-                case 1:
-                    {
-                        FreeOlimpicObjects.RemoveAt(0);
-                        LeasedOlimpicObjects.Add("Больница");
-                        medical.Rent();
-                        break;
-                    }
-
-                case 2:
-                    {
-                        FreeOlimpicObjects.RemoveAt(1);
-                        LeasedOlimpicObjects.Add("СпортКомплекс");
-                        complex.Rent();
-                        break;
-                    }
-                case 3:
-                    {
-                        FreeOlimpicObjects.RemoveAt(2);
-                        LeasedOlimpicObjects.Add("Общежитие");
-                        hostel.Rent();
-                        break;
-                    }
-                case 4:
-                    {
-                        FreeOlimpicObjects.RemoveAt(3);
-                        LeasedOlimpicObjects.Add("Библиотека");
-                        lib.Rent();
-                        break;
-                    }
-
-            }
-            foreach (string i in LeasedOlimpicObjects)
-            {
-                Console.WriteLine("Обьект " + i + " арендован");
-            }
+        public Hostel(int cost)
+        { 
         
         }
-        public void CheckFreeObj()
-        {
-            foreach (string i in FreeOlimpicObjects)
-            {
-                Console.WriteLine(i);
-            }
-        }
-        public void CheckLeasedObj()
-        {
-            foreach (string i in LeasedOlimpicObjects)
-            {
-                Console.WriteLine(i);
-            }
-        }
-
-       
     }
-
+    class Lib : SimpleConstr
+    {
+        public Lib(int cost)
+        { 
+        
+        }
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            Separator separator = new Separator();
-            separator.Add();
-            while (true)
-            {
-                Console.WriteLine("\n-------------------------------\n*******************************");
-                Console.WriteLine("Выбирите нужный вам пункт:");
-                Console.WriteLine("1.Арендовать объект");
-                Console.WriteLine("2.Удалить объект из аренды");
-                Console.WriteLine("3.Посмотерть доступные объекты");
-                Console.WriteLine("4.Подобрать объект по бюджету");
-                Console.WriteLine("5.Посмотреть арендованные");
-                Console.WriteLine("\n*******************************\n-------------------------------");
-                int choose = Convert.ToInt32(Console.ReadLine());
-                switch (choose)
-                {
-                    case 1:
-                        {
-                            separator.Remove();
-                            break;
-                        }
-                    case 2:
-                        {
-                            
-                            separator.RemoveFree();
-                            break;
-                        }
-                    case 3:
-                        {
-                            Console.WriteLine("Свободные Объекты:");
-                            separator.CheckFreeObj();
-                            break;
-                        }
-                    case 4:
-                        {
-                            separator.Money();
-                            break;
-                        }
-                    case 5:
-                        {
-                            separator.CheckLeasedObj();
-                            break;
-                        }
-
-                }
-            }
+            var medical = new MedicalCenter(555);
+            var stadium = new Stadium(200);
+            var lib = new Lib(33);
+            var hostel = new Hostel(101);
+            var separator = new Separator<IOlimpicConstruction>();
+            separator.FreeObj.Add(medical);
+            separator.FreeObj.Add(stadium);
+            separator.FreeObj.Add(lib);
+            separator.FreeObj.Add(hostel);
+            //аренда
+            separator.Add(medical, 555);
+            separator.Add(hostel, 101);
+            // удаление из аредованных
+            separator.Remove(medical);
+            //поиск
+            separator.Find(stadium);
         }
     }
 }
-
-
