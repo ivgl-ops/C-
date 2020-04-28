@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "L/4umA9SNNEebb/7laexTA0yuyt8T7F91hME2jIuvFgQZGrLmsiWFK767qxbYb3gRAKXKpG0Ln7XKkppoEFCpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gladk\\OneDrive\\Рабочий стол\\Corana Outside\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gladk\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\gladk\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
