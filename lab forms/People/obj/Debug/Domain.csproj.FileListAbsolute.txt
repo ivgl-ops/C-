@@ -1,0 +1,6 @@
+C:\Users\gladk\source\repos\lab forms\People\bin\Debug\People.dll
+C:\Users\gladk\source\repos\lab forms\People\bin\Debug\People.pdb
+C:\Users\gladk\source\repos\lab forms\People\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\gladk\source\repos\lab forms\People\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\gladk\source\repos\lab forms\People\obj\Debug\People.dll
+C:\Users\gladk\source\repos\lab forms\People\obj\Debug\People.pdb

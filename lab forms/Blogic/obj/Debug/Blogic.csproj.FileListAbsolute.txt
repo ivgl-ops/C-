@@ -1,0 +1,9 @@
+C:\Users\gladk\source\repos\lab forms\Blogic\bin\Debug\Blogic.dll
+C:\Users\gladk\source\repos\lab forms\Blogic\bin\Debug\Blogic.pdb
+C:\Users\gladk\source\repos\lab forms\Blogic\bin\Debug\People.dll
+C:\Users\gladk\source\repos\lab forms\Blogic\bin\Debug\People.pdb
+C:\Users\gladk\source\repos\lab forms\Blogic\obj\Debug\Blogic.csprojAssemblyReference.cache
+C:\Users\gladk\source\repos\lab forms\Blogic\obj\Debug\Blogic.csproj.CoreCompileInputs.cache
+C:\Users\gladk\source\repos\lab forms\Blogic\obj\Debug\Blogic.csproj.CopyComplete
+C:\Users\gladk\source\repos\lab forms\Blogic\obj\Debug\Blogic.dll
+C:\Users\gladk\source\repos\lab forms\Blogic\obj\Debug\Blogic.pdb
