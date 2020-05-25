@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Release_VOL", "Release_VOL\Release_VOL.csproj", "{59FEB8A3-1A16-40AC-A849-852AD7D39F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{99CD4568-3A72-4F5A-B3F6-1A85E6CA7FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogic", "Blogic\Blogic.csproj", "{A5E09844-11A2-41EF-956C-E51C93E3120A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59FEB8A3-1A16-40AC-A849-852AD7D39F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FEB8A3-1A16-40AC-A849-852AD7D39F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FEB8A3-1A16-40AC-A849-852AD7D39F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FEB8A3-1A16-40AC-A849-852AD7D39F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CD4568-3A72-4F5A-B3F6-1A85E6CA7FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CD4568-3A72-4F5A-B3F6-1A85E6CA7FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CD4568-3A72-4F5A-B3F6-1A85E6CA7FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CD4568-3A72-4F5A-B3F6-1A85E6CA7FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E09844-11A2-41EF-956C-E51C93E3120A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E09844-11A2-41EF-956C-E51C93E3120A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E09844-11A2-41EF-956C-E51C93E3120A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E09844-11A2-41EF-956C-E51C93E3120A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7C13F2C-499E-4FF3-A7DC-94FB946EB48E}
+	EndGlobalSection
+EndGlobal

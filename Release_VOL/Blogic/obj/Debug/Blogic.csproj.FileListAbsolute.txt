@@ -1,0 +1,40 @@
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\Blogic.dll
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\Blogic.pdb
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\CommonServiceLocator.dll
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\Domain.dll
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\Domain.pdb
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\gladk\source\repos\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\gladk\source\repos\Release_VOL\Blogic\obj\Debug\Blogic.csprojAssemblyReference.cache
+C:\Users\gladk\source\repos\Release_VOL\Blogic\obj\Debug\Blogic.csproj.CoreCompileInputs.cache
+C:\Users\gladk\source\repos\Release_VOL\Blogic\obj\Debug\Blogic.csproj.CopyComplete
+C:\Users\gladk\source\repos\Release_VOL\Blogic\obj\Debug\Blogic.dll
+C:\Users\gladk\source\repos\Release_VOL\Blogic\obj\Debug\Blogic.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\Blogic.dll
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\Blogic.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\CommonServiceLocator.dll
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\Domain.dll
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\Domain.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\obj\Debug\Blogic.csprojAssemblyReference.cache
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\obj\Debug\Blogic.csproj.CoreCompileInputs.cache
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\obj\Debug\Blogic.csproj.CopyComplete
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\obj\Debug\Blogic.dll
+C:\Users\gladk\OneDrive\Рабочий стол\Release_VOL\Blogic\obj\Debug\Blogic.pdb
