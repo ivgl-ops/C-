@@ -1,0 +1,27 @@
+﻿<Window x:Class="Release_VOL.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Release_VOL"
+        mc:Ignorable="d"
+        Title="Window1" Height="508.989" Width="338.202">
+    <Grid Background="Bisque" Margin="-41,0,-23,0">
+        <ListBox ItemsSource="{Binding Users}"  HorizontalAlignment="Left" Height="210" Margin="43,12,0,0" VerticalAlignment="Top" Width="308">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <TextBlock FontSize="14" Text="{Binding Path=Name}" />
+                        <TextBlock FontSize="14" Text="{Binding Path=UsrNmbr}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Command="{Binding AddFriend}" Content="Создать" HorizontalAlignment="Left" Margin="275,366,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="43,260,0,0" TextWrapping="Wrap" Text="{Binding NewName}" VerticalAlignment="Top" Width="308"/>
+       
+        <Label Content="Введите имя : " HorizontalAlignment="Left" Margin="43,227,0,0" VerticalAlignment="Top" Width="97"/>
+        <Label Content="Введите номер :" HorizontalAlignment="Left" Margin="43,289,0,0" VerticalAlignment="Top" Width="131"/>
+
+    </Grid>
+</Window>

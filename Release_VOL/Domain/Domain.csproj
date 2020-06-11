@@ -56,12 +56,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Institute.cs" />
-    <Compile Include="Service.cs" />
-    <Compile Include="Teacher.cs" />
+    <Compile Include="Login.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TopServices.cs" />
-    <Compile Include="UselessАpp.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

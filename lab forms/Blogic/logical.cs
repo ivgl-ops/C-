@@ -84,6 +84,7 @@ namespace Blogic
                 peoples.Remove(Illpeople);
             }
         }
+
         public static void RemoveHealth(this List<People> peoples, List<People> HealthPeoples)
         { 
             foreach(People Health in HealthPeoples)

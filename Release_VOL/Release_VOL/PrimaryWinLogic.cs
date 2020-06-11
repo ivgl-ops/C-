@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain
+namespace Release_VOL
 {
-    public class TopServices
+    class PrimaryWinLogic
     {
-        public string Title;
-        public int Digit;
+
     }
 }

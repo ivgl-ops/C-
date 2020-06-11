@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
 using System.ComponentModel;
 
-
 namespace Domain
 {
-    public class Institute : INotifyPropertyChanged
+    public class Login : INotifyPropertyChanged
     {
-        private string name;
-        public string Name
+        private string log;
+        public string Log
         {
             get
             {
-                return name;
+                return log;
             }
             set
             {
-                name = value;
-                OnPropertyChanged("Name");
+                log = value;
+                OnPropertyChanged("Log");
             }
         }
+       
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged([CallerMemberName]string prop = "")
         {

@@ -13,3 +13,18 @@ C:\Users\gladk\source\repos\lab forms\lab forms\bin\Debug\People.pdb
 C:\Users\gladk\source\repos\lab forms\lab forms\obj\Debug\lab forms.csproj.CopyComplete
 C:\Users\gladk\source\repos\lab forms\lab forms\bin\Debug\Blogic.dll
 C:\Users\gladk\source\repos\lab forms\lab forms\bin\Debug\Blogic.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\bin\Debug\lab forms.exe.config
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\bin\Debug\lab forms.exe
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\bin\Debug\lab forms.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\bin\Debug\Blogic.dll
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\bin\Debug\People.dll
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\bin\Debug\Blogic.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\bin\Debug\People.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\obj\Debug\lab forms.csprojAssemblyReference.cache
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\obj\Debug\lab_forms.Form1.resources
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\obj\Debug\lab_forms.Properties.Resources.resources
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\obj\Debug\lab forms.csproj.GenerateResource.cache
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\obj\Debug\lab forms.csproj.CoreCompileInputs.cache
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\obj\Debug\lab forms.csproj.CopyComplete
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\obj\Debug\lab forms.exe
+C:\Users\gladk\OneDrive\Рабочий стол\C#\lab forms\lab forms\obj\Debug\lab forms.pdb
