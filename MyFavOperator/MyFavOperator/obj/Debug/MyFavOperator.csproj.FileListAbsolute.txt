@@ -1,0 +1,62 @@
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.csprojAssemblyReference.cache
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MainWindow.g.cs
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\App.g.cs
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator_MarkupCompile.cache
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator_MarkupCompile.lref
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\MyFavOperator.exe.config
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\MyFavOperator.exe
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\MyFavOperator.pdb
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MainWindow.baml
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.g.resources
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.Properties.Resources.resources
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.csproj.GenerateResource.cache
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.csproj.CoreCompileInputs.cache
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.exe
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.pdb
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\PrimaryWin.g.cs
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\PrimaryWin.baml
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\CommonServiceLocator.dll
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.csproj.CopyComplete
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\PasswordView.g.cs
+C:\Users\gladk\source\repos\MyFavOperator\MyFavOperator\obj\Debug\PasswordView.baml
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\MyFavOperator.exe.config
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\MyFavOperator.exe
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\MyFavOperator.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\CommonServiceLocator.dll
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.csprojAssemblyReference.cache
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MainWindow.g.cs
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\PasswordView.g.cs
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\PrimaryWin.g.cs
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\App.g.cs
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator_MarkupCompile.cache
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator_MarkupCompile.lref
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MainWindow.baml
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\PasswordView.baml
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\PrimaryWin.baml
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.g.resources
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.Properties.Resources.resources
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.csproj.GenerateResource.cache
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.csproj.CoreCompileInputs.cache
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.csproj.CopyComplete
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.exe
+C:\Users\gladk\OneDrive\Рабочий стол\MyFavOperator\MyFavOperator\obj\Debug\MyFavOperator.pdb

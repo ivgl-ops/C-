@@ -13,6 +13,7 @@ using Release_VOL;
 
 namespace Blogic
 {
+    public delegate void CallHandler(string CallerNmbr, string DialingNmbr);
     public class Blogical : INotifyPropertyChanged
     {
         public ObservableCollection<Login> Logins { set; get; }
@@ -49,6 +50,8 @@ namespace Blogic
             }
         }
 
+        public event CallHandler Call;
+        public event CallHandler Dialing;
 
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged([CallerMemberName]string prop = "")
@@ -60,12 +63,12 @@ namespace Blogic
         {
             Logins = new ObservableCollection<Login>
             {
-                new Login {Log = "wed" }
+            
             };
 
             Users = new ObservableCollection<User>
             {
-                new User {Name = "Гомодрил", UsrNmbr = "89834608775" }
+            
             };
         }
         private ICommand addFriend;
@@ -76,15 +79,17 @@ namespace Blogic
             Users.Insert(0, user);
             NewUser = user;
         }
-
+        public void DialingNmbr(string CallerNmbr, string DialingNmbr)
+        { 
+            Call(CallerNmbr, DialingNmbr);
+        }
         private ICommand addCommand;
         public ICommand AddCommand => addCommand ?? (addCommand = new RelayCommand(AddLog));
    
         public void AddLog()
         {
-            Login login = new Login() { Log = LogName };
+            Login login = new Login() { Log = LogName};
             Window1 window = new Window1();
-            MainWindow main = new MainWindow();
             Logins.Insert(0, login);
             NewLog = login;
             window.Show();

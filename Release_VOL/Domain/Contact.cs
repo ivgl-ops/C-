@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 
 namespace Domain
 {
-    public class User : INotifyPropertyChanged
+    public class Contact : INotifyPropertyChanged
     {
         private string name;
         public string Name
